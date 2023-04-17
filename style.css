@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=VT323&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -91,13 +95,98 @@ header button{
     height: 400px;
     width: 300px;
     margin-top: 5px;
+}
+
+.main1 {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Playfair Display', sans-serif;
+}
+
+.main1 .CGD .GameDesign a{
+    padding: 5px 15px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-family: 'Playfair Display', sans-serif;
+    outline: none;
+    cursor: pointer;
+}
+
+footer{
+    margin-top: 40px;
+    border-top: 5px solid #6f6f6f;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 30px 100px;
 
 }
+
+footer h1{
+    font-family: 'Playfair Display', sans-serif;
+    border-bottom: 1px solid #ffffff;
+    width: 23%;
+    padding-bottom: 5px;
+}
+
+footer .documents{
+    margin-top: -10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer .documents .docu{
+    margin-right: 30px;
+    padding: 10px;
+}
+
+footer .documents .docu p{
+    max-width: 300px ;
+
+}
+
+footer #Conts{
+    color: rgb(181,181,181);
+}
+
+.main3 .documents a{
+    padding: 5px 15px;
+    background-color: white;
+    color: black;
+    border: none;
+    font-size: 15px;
+    font-family: 'Playfair Display', sans-serif;
+    outline: none;
+    cursor: pointer;
+}
+
 
 
 @media screen and (max-width: 680px){
     nav.onglets{
-        margin-left: 0px;
+        margin-left: 0;
         margin-bottom: 20px;
+        border-bottom: 0 ;
+    }
+    header{
+        background: url('images/pourtel.jpg');
+    }
+
+    .main2 .desc{
+        margin: 10px;
+    }
+    .main2 .content .desc .rigth img{
+        height: 200px;
+        width: 100%;
+        margin-top: 0;
+    }
+    .main2 .content .card{
+        display: block;
+    }
+    footer{
+        padding: 30px;
     }
 }

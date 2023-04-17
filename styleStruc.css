@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=VT323&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid #6f6f6f;
+}
+nav h1{
+    color: #717171;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 30px;
+}
+nav .ongletss{
+    margin-top: 3px;
+    margin-left: 300px;
+}
+
+nav .ongletss a{
+    text-decoration: none;
+    color: #000000;
+    margin-right: 10px;
+    border-bottom: 1px solid #000000;
+    padding-bottom: 5px;
+}
+
+
+.Stru{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+.Stru .h1{
+    font-family: 'Playfair Display', sans-serif;
+    border-bottom: 1px solid #ffffff;
+    width: 23%;
+    padding-bottom: 5px;
+}
+.Contactssss{
+    margin-top: 40px;
+    border-top: 5px solid #6f6f6f;
+    background-color: #000000;
+    color: rgb(181,181,181);
+    padding: 30px 100px;
+
+}
+
+
+
+
+@media screen and (max-width: 680px){
+    nav.ongletss{
+        margin-left: 0;
+        margin-bottom: 20px;
+        border-bottom: 0 ;
+    }
+    footer{
+        padding: 30px;
+    }
+}
